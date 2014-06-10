@@ -9,7 +9,9 @@ Source: [SQL](Database.FileSizes.sql)
 
 Outputs the size of all the files used databases on the SQL Server.
 
+Output:
 
+![SQL Output](../../images/database/Database.FileSizes.png)
 
 ###Database.Information.sql###
 
