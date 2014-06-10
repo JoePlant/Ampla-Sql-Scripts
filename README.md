@@ -4,7 +4,7 @@ Ampla-Sql-Scripts
 A set of SQL Scripts that are useful with Ampla projects
 
 
-- [Database Scripts]("./Database Scripts")
+- [Database Scripts]("Database")
 - [Ampla Project Scripts]("./Ampla Project") 
 - Special Functionality
 	- [Threshold Ranges Information]("./ThresholdRanges")
