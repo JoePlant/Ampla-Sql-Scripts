@@ -23,5 +23,8 @@ Source: [SQL](Database.Information.sql)
 
 Outputs information about the Database configuration for all the databases on the SQL server.
 
+Output:
+
+![SQL Output](../../images/database/Database.Information.png)
 
 ----------
