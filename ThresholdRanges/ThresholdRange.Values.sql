@@ -1,7 +1,12 @@
 
--- Script to output the Threshold Range values for a reporting point.
--- @ReportingPoint is the reporting point location that is used.
--- The Upper and Lower threshold values are stored in the Calendar table.
+/*
+	Script to output the Threshold Range values for a reporting point.
+	@ReportingPoint is the reporting point location that is used.
+	The Upper and Lower threshold values are stored in the Calendar table.
+*/
+
+-- Using the Ampla Data Repository database
+Use AmplaProjectData;
 
 DECLARE @ReportingPoint nvarchar(200)
 
