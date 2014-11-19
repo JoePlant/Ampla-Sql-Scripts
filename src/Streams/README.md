@@ -13,7 +13,7 @@ Outputs each of the streams in the state database showing their start and end ti
 
 Output:
 
-![SQL Output](../../images/database/Streams.SampleCount.png)
+![SQL Output](../../images/streams/Streams.SampleCount.png)
 
 ----------
 

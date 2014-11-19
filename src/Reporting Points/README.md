@@ -13,7 +13,7 @@ Outputs the number of records for each reporting point in the data repository
 
 Output:
 
-![SQL Output](../../images/database/Module.RecordCounts.png)
+![SQL Output](../../images/reportingpoint/Module.RecordCounts.png)
 
 ----------
 
@@ -25,6 +25,6 @@ Outputs the number of fields in the data repository including the number of acti
 
 Output:
 
-![SQL Output](../../images/database/Module.FieldCounts.png)
+![SQL Output](../../images/reportingpoint/Module.FieldCounts.png)
 
 ----------
