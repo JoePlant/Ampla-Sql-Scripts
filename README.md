@@ -24,6 +24,7 @@ A set of scripts to count the number of records by reporting point type
 A set of scripts for understanding the Ampla Project configuration database
 
 -  Item.FullName.sql
+-  Item.FullName.Sorted.sql
 -  Item.FullName.Type.sql
 
 ###[Stream Scripts](src/Streams)###
