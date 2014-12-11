@@ -13,7 +13,7 @@ Checks for duplicates records in the Field table.
 
 Output:
 
-![SQL Output](../../images/checks/datarepository.field.duplicate.png)
+![SQL Output](../../images/checks/DataRepository.Field.Duplicate.png)
 
 ----------
 
@@ -25,7 +25,7 @@ Checks for fields that have been deleted from the Ampla project in the Field tab
 
 Output:
 
-![SQL Output](../../images/checks/datarepository.field.deleted.png)
+![SQL Output](../../images/checks/DataRepository.Field.Deleted.png)
 
 ----------
 
