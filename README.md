@@ -9,10 +9,11 @@ A set of SQL Scripts that are useful with Ampla projects
 	- [Stream Scripts](src/Streams) 
 	- [Threshold Ranges Information](src/ThresholdRanges)
 
-
 - Database Scripts
 	- [Database Scripts](src/Database)
 
+- Data Repository Scripts
+	- [Integrity Checks](src/Checks)
 
 ###[Reporting Point Scripts](src/Reporting%20Points)###
 A set of scripts to count the number of records by reporting point type
@@ -38,3 +39,8 @@ A set of scripts to output general information about the SQL Server Databases
 - Database.FileSizes.sql
 - Database.Information.sql
 
+###[Data Integrity Checks](src/Checks)###
+A set of scripts to check the data integrity of the Ampla Data Repository.
+
+- DataRepository.Field.Duplicate.sql
+- DataRepository.Field.Deleted.sql
