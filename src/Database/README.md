@@ -28,3 +28,15 @@ Output:
 ![SQL Output](../../images/database/Database.Information.png)
 
 ----------
+
+###Database.PerformanceCounters.sql###
+
+Source: [SQL](Database.PerformanceCounters.sql)
+
+Outputs performance counters values into a table with some guidance about how to interpret the results.
+
+Output:  
+
+*TBA*
+
+----------

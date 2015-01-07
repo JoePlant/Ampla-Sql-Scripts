@@ -18,8 +18,5 @@ from
 	) pc_dmv
 	group by pc_dmv.instance_name
 ) filesizes
-
---where InstanceName like '%Ampla%'
-
---order by [LogFileSize(KB)] DESC
-order by [DataFileSize(KB)] DESC
+order by 
+	[DataFileSize(KB)] DESC
