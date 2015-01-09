@@ -5,9 +5,9 @@ A set of scripts to output the number and size of the streams in the state datab
 
 ----------
 
-###Stream.SampleCount.sql###
+###Streams.SampleCount.sql###
 
-Source: [SQL](Stream.SampleCount.sql)
+Source: [SQL](Streams.SampleCount.sql)
 
 Outputs each of the streams in the state database showing their start and end time as well as the number of samples stored.
 
