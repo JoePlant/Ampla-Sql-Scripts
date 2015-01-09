@@ -29,6 +29,18 @@ Output:
 
 ----------
 
+###Database.TableSizes.sql###
+
+Source: [SQL](Database.TableSizes.sql)
+
+Outputs the size of all the tables in a database.
+
+Output:
+
+![SQL Output](../../images/database/Database.TablesSizes.png)
+
+----------
+
 ###Database.PerformanceCounters.sql###
 
 Source: [SQL](Database.PerformanceCounters.sql)
@@ -37,6 +49,7 @@ Outputs performance counters values into a table with some guidance about how to
 
 Output:  
 
-*TBA*
+
+![SQL Output](../../images/database/Database.PerformanceCounters.png)
 
 ----------
