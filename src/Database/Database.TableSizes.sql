@@ -5,9 +5,9 @@
 */
 
 SELECT 
-    t.NAME AS TableName,
-    i.name as indexName,
-    p.[Rows],
+    t.name AS TableName,
+    i.name AS IndexName,
+    p.rows as [Rows],
     sum(a.total_pages) as TotalPages, 
     sum(a.used_pages) as UsedPages, 
     sum(a.data_pages) as DataPages,
@@ -17,16 +17,16 @@ SELECT
 FROM 
     sys.tables t
 INNER JOIN      
-    sys.indexes i ON t.OBJECT_ID = i.object_id
+    sys.indexes i ON t.object_id = i.object_id
 INNER JOIN 
-    sys.partitions p ON i.object_id = p.OBJECT_ID AND i.index_id = p.index_id
+    sys.partitions p ON i.object_id = p.object_id AND i.index_id = p.index_id
 INNER JOIN 
     sys.allocation_units a ON p.partition_id = a.container_id
 WHERE 
-    t.NAME NOT LIKE 'dt%' AND
-    i.OBJECT_ID > 255 AND   
-    i.index_id <= 1
+		t.name NOT LIKE 'dt%' 
+    AND i.object_id > 255 
+    AND i.index_id <= 1
 GROUP BY 
-    t.NAME, i.object_id, i.index_id, i.name, p.[Rows]
+    t.name, i.object_id, i.index_id, i.name, p.rows
 ORDER BY 
-    object_name(i.object_id) 
+    p.rows desc, object_name(i.object_id) 
