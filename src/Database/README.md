@@ -37,7 +37,7 @@ Outputs the size of all the tables in a database.
 
 Output:
 
-![SQL Output](../../images/database/Database.TablesSizes.png)
+![SQL Output](../../images/database/Database.TableSizes.png)
 
 ----------
 

@@ -38,6 +38,8 @@ A set of scripts to output general information about the SQL Server Databases
 
 - Database.FileSizes.sql
 - Database.Information.sql
+- Database.TableSizes.sql
+- Database.PerformanceCounters.sql
 
 ###[Data Integrity Checks](src/Checks)###
 A set of scripts to check the data integrity of the Ampla Data Repository.
