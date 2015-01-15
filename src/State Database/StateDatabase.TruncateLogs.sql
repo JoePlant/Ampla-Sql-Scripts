@@ -10,6 +10,7 @@ declare @countLogs int
 
 set @utcNow = GETUTCDATE()
 
+-- get an indication of the oldest record and size of the Log table.
 select @weeksOld = DATEDIFF(WK, logSummary.oldest, @utcNow), @countLogs = logSummary.records
 from 
 	(
@@ -64,6 +65,8 @@ begin
 end 
 else
 begin
-	print 'Log table has ' + cast(@countLogs as varchar(10)) + ' rows - no rows are deleted.'
-	print 'Oldest record is ' + cast(@weeksOld as varchar(10)) + ' weeks old'
+	print '*** [Summary] ***'
+	print '--- No records have been deleted'
+	print '--- Log table has ' + cast(@countLogs as varchar(10)) + ' rows '
+	print '--- Oldest record is ' + cast(@weeksOld as varchar(10)) + ' weeks old'
 end
