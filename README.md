@@ -36,11 +36,13 @@ A script for understanding the streams in the Ampla state database
 ###[Database Scripts](src/Database)###
 A set of scripts to output general information about the SQL Server Databases
 
+- Database.Assembly.Version.sql
 - Database.BackupScript.sql
 - Database.FileSizes.sql
 - Database.Information.sql
 - Database.PerformanceCounters.sql
 - Database.RecoveryMode.Simple.sql
+- Database.Trustworthy.sql
 - Database.TableSizes.sql
 
 ###[Data Integrity Checks](src/Checks)###
@@ -48,3 +50,4 @@ A set of scripts to check the data integrity of the Ampla Data Repository.
 
 - DataRepository.Field.Duplicate.sql
 - DataRepository.Field.Deleted.sql
+- Database.Trustworthy.sql

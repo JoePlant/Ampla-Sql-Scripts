@@ -5,12 +5,24 @@ A set of useful database scripts for managing Ampla databases.
 
 ----------
 
+###Database.Assembly.Version.sql###
+
+Source: [SQL](Database.Assembly.Version.sql)
+
+Lists the .NET objects in the database and the Assembly Version.
+ 
+Output:
+
+![SQL Output](../../images/database/Database.Assembly.Version.png)
+
+----------
+
 ###Database.BackupScript.sql###
 
 Source: [SQL](Database.BackupScript.sql)
 
-Generates a backup script for the Ampla databases that are suitable for once a day.
-
+Generates a set of backup scripts for Ampla Databases with the date in the file name
+ 
 Output:
 
 ![SQL Output](../../images/database/Database.BackupScript.png)
@@ -79,3 +91,14 @@ Output:
 
 ![SQL Output](../../images/database/Database.TableSizes.png)
 
+----------
+
+###Database.Trustworthy.sql###
+
+Checks to see if the database has .NET assemblies installed and checks the database's TRUSTWORTHY state.
+
+This is used to solve errors like this that can occur when a database is restored from another server.
+
+See: [../Checks/README.md](../Checks)
+
+Source: [SQL](../Checks/Database.Trustworthy.sql)
