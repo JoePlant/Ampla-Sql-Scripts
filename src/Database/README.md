@@ -1,7 +1,19 @@
 Database Scripts
 ===
 
-A set of scripts to output general information about the SQL Server Databases
+A set of useful database scripts for managing Ampla databases.
+
+----------
+
+###Database.BackupScript.sql###
+
+Source: [SQL](Database.BackupScript.sql)
+
+Generates a backup script for the Ampla databases that are suitable for once a day.
+
+Output:
+
+![SQL Output](../../images/database/Database.BackupScript.png)
 
 ----------
 
@@ -29,18 +41,6 @@ Output:
 
 ----------
 
-###Database.TableSizes.sql###
-
-Source: [SQL](Database.TableSizes.sql)
-
-Outputs the size of all the tables in a database.
-
-Output:
-
-![SQL Output](../../images/database/Database.TableSizes.png)
-
-----------
-
 ###Database.PerformanceCounters.sql###
 
 Source: [SQL](Database.PerformanceCounters.sql)
@@ -53,3 +53,29 @@ Output:
 ![SQL Output](../../images/database/Database.PerformanceCounters.png)
 
 ----------
+
+###Database.RecoveryMode.Simple.sql###
+
+Source: [SQL](Database.RecoveryMode.Simple.sql)
+
+Generates a script for all databases that are set to FULL recovery mode.
+In most circumstances, SIMPLE Recovery mode will be sufficient for Ampla databases.
+
+Please check the name of the database before executing the generated script
+
+Output:
+
+![SQL Output](../../images/database/Database.Information.png)
+
+----------
+
+###Database.TableSizes.sql###
+
+Source: [SQL](Database.TableSizes.sql)
+
+Outputs the size of all the tables in a database.
+
+Output:
+
+![SQL Output](../../images/database/Database.TableSizes.png)
+
