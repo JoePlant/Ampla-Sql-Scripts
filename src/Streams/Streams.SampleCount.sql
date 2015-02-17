@@ -13,15 +13,29 @@ set @configDB = 'AmplaProject'    /* specify the config database here */
 
 /*--------------------------------------------------------------------*/
 
-declare @sql nvarchar(1000)
+declare @sql nvarchar(max)
 declare @stateDB varchar(25)
 
 set @stateDB = COALESCE(@stateDB_override, @configDB + 'State');
 
 set @sql = 
-'select 
+'
+WITH Item_CTE(ID, FullName, TypeID, Depth)
+AS
+(
+	SELECT ID, Cast(Name as VARCHAR(MAX)) as FullName, TypeID, 1 as Depth
+	FROM ' + @configDB + '.dbo.Items
+	WHERE ParentID = ''00000000-0000-0000-0000-000000000000''
+	UNION ALL
+	SELECT item.ID,  Cast(cte.FullName + ''.'' + item.Name as VARCHAR(MAX)) as FullName, item.TypeID, cte.Depth + 1 as Depth
+	FROM ' + @configDB + '.dbo.Items as item
+	INNER JOIN Item_CTE as cte
+		ON item.ParentID = cte.ID
+)
+
+select 
 	streams.StreamId,
-	config.Name, 
+	config.FullName, 
 	streams.PropertyName,
 	config.TypeFullName,
 	samples.SampleCount,
@@ -39,16 +53,16 @@ from
 	on 
 		streams.StreamId = samples.StreamId
 	left join (
-		select items.ID, items.[Name], types.TypeFullName
-		from ' + @configDB + '.dbo.Items items
-		inner join ' + @configDB + '.dbo.ItemTypes types on 
-		items.TypeId = types.ID
+		SELECT items.ID, items.FullName, items.Depth, types.TypeFullName
+		from Item_CTE items
+		inner join ' + @configDB + '.dbo.ItemTypes types
+		on items.TypeID = types.ID
 	) config 
 	on 
 		config.ID = streams.ItemId
 order by 
 	samples.SampleCount desc,
-	config.Name desc'
+	config.FullName desc'
 
 --print @sql
 exec sp_executesql @sql
