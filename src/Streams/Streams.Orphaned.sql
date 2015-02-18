@@ -9,7 +9,7 @@
 declare @configDB varchar(25)
 declare @stateDB_override varchar(25)
 
-set @configDB = 'Demo'    /* specify the config database here */
+set @configDB = 'AmplaProject'    /* specify the config database here */
 
 /* uncomment following line to override the default state database */
 --set @stateDB_override = 'overide the state database'
