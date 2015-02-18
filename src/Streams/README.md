@@ -33,3 +33,14 @@ Output:
 ```
 ----------
 
+###Streams.Age.sql###
+
+Source: [SQL](Streams.Age.sql)
+
+Outputs the age of the streams in the state database to help identify streams that are not being updated.
+
+Output:
+
+![SQL Output](../../images/streams/Streams.Age.png)
+
+----------
