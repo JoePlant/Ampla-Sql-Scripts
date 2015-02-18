@@ -27,7 +27,7 @@ Output:
 
 ![SQL Output](../../images/streams/Streams.Orphaned.png)
 
-```
+```sql
 	DELETE FROM AmplaProjectState.dbo.SampleStoreSampleStream WHERE StreamId=819
 	DELETE FROM AmplaProjectState.dbo.SampleStoreSampleStream WHERE StreamId=820
 ```
