@@ -17,3 +17,19 @@ Output:
 
 ----------
 
+###Streams.Orphaned.sql###
+
+Source: [SQL](Streams.Orphaned.sql)
+
+Checks to see if there is any orphaned Streams in the State database and outputs SQL script to delete them
+
+Output:
+
+![SQL Output](../../images/streams/Streams.Orphaned.png)
+
+```
+	DELETE FROM AmplaProjectState.dbo.SampleStoreSampleStream WHERE StreamId=819
+	DELETE FROM AmplaProjectState.dbo.SampleStoreSampleStream WHERE StreamId=820
+```
+----------
+
