@@ -93,6 +93,18 @@ Output:
 
 ----------
 
+###Database.ShrinkFiles.sql###
+
+Source: [SQL](Database.ShrinkFiles.sql)
+
+Generates SQL to generate DBCC SHRINKFILE statements for all databases on a server.
+
+Output:
+
+![SQL Output](../../images/database/Database.ShrinkFiles.png)
+
+----------
+
 ###Database.Trustworthy.sql###
 
 Checks to see if the database has .NET assemblies installed and checks the database's TRUSTWORTHY state.

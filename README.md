@@ -46,6 +46,7 @@ A set of scripts to output general information about the SQL Server Databases
 - Database.RecoveryMode.Simple.sql
 - Database.Trustworthy.sql
 - Database.TableSizes.sql
+- Database.ShrinkFiles.sql
 
 ###[Data Integrity Checks](src/Checks)###
 A set of scripts to check the data integrity of the Ampla Data Repository.
