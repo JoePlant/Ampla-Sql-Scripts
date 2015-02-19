@@ -17,6 +17,20 @@ Output:
 
 ----------
 
+###Streams.LastSamples.sql###
+
+Source: [SQL](Streams.LastSamples.sql)
+
+Outputs details about each of the streams including the Item FullName, the number of samples and the last sample.
+
+This can be used to help diagnose streams that are not being updated.
+
+Output:
+
+![SQL Output](../../images/streams/Streams.LastSamples.png)
+
+----------
+
 ###Streams.Orphaned.sql###
 
 Source: [SQL](Streams.Orphaned.sql)

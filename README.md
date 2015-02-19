@@ -29,11 +29,12 @@ A set of scripts for understanding the Ampla Project configuration database
 -  Item.FullName.Type.sql
 
 ###[Stream Scripts](src/Streams)###
-A script for understanding the streams in the Ampla state database
+A set of scripts for understanding the streams in the Ampla state database
 
--  Streams.SampleCount.sql
--  Streams.Orphaned.sql
 -  Streams.Age.sql
+-  Streams.LastSamples.sql
+-  Streams.Orphaned.sql
+-  Streams.SampleCount.sql
 
 ###[Database Scripts](src/Database)###
 A set of scripts to output general information about the SQL Server Databases
