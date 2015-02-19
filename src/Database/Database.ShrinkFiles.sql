@@ -1,6 +1,6 @@
 
 /*
--- Script to generate DBCC SHRINKFILE statements for all the databases 
+-- Script to generate DBCC SHRINKFILE statements for all databases 
 --
 -- Do NOT use in a production environment
 */
@@ -13,4 +13,4 @@ FROM
          sys.master_files mf 
     JOIN sys.databases d 
         ON mf.database_id = d.database_id 
-WHERE d.database_id > 4 and d.name like '%AmplaProject%'
+WHERE d.database_id > 4
