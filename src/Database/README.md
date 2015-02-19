@@ -109,7 +109,7 @@ Output:
 
 Checks to see if the database has .NET assemblies installed and checks the database's TRUSTWORTHY state.
 
-This is used to solve errors like this that can occur when a database is restored from another server.
+This is used to solve errors that can occur when a database is restored from another server.
 
 See: [../Checks/README.md](../Checks)
 

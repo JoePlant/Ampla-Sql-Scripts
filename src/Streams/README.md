@@ -1,19 +1,19 @@
 Runtime Stream Scripts
 ===
 
-A set of scripts to output the number and size of the streams in the state database.
+A set of scripts to understand the number and types of values stored in the Stream tables of the Ampla State database.
 
 ----------
 
-###Streams.SampleCount.sql###
+###Streams.Age.sql###
 
-Source: [SQL](Streams.SampleCount.sql)
+Source: [SQL](Streams.Age.sql)
 
-Outputs each of the streams in the state database showing their start and end time as well as the number of samples stored.
+Outputs the age of the streams in the state database to help identify streams that are not being updated.
 
 Output:
 
-![SQL Output](../../images/streams/Streams.SampleCount.png)
+![SQL Output](../../images/streams/Streams.Age.png)
 
 ----------
 
@@ -31,16 +31,17 @@ Output:
 	DELETE FROM AmplaProjectState.dbo.SampleStoreSampleStream WHERE StreamId=819
 	DELETE FROM AmplaProjectState.dbo.SampleStoreSampleStream WHERE StreamId=820
 ```
+
 ----------
 
-###Streams.Age.sql###
+###Streams.SampleCount.sql###
 
-Source: [SQL](Streams.Age.sql)
+Source: [SQL](Streams.SampleCount.sql)
 
-Outputs the age of the streams in the state database to help identify streams that are not being updated.
+Outputs each of the streams in the state database showing their start and end time as well as the number of samples stored.
 
 Output:
 
-![SQL Output](../../images/streams/Streams.Age.png)
+![SQL Output](../../images/streams/Streams.SampleCount.png)
 
 ----------
