@@ -29,6 +29,19 @@ Output:
 
 ----------
 
+###Database.Connections.sql###
+
+Source: [SQL](Database.Connections.sql)
+
+Outputs details about the number and type of connections to the database.
+
+Output:
+
+![SQL Output](../../images/database/Database.Connections.png)
+
+
+----------
+
 ###Database.FileSizes.sql###
 
 Source: [SQL](Database.FileSizes.sql)
