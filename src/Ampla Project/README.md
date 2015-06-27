@@ -39,3 +39,15 @@ Output:
 ![SQL Output](../../images/ampla/Item.FullName.Types.png)
 
 ----------
+
+###Item.Count.Types.sql###
+
+Source: [SQL](Item.Count.Types.sql)
+
+Lists the number of types of items and their count in the project.
+
+Output:
+
+![SQL Output](../../images/ampla/Item.Count.Types.png)
+
+----------
