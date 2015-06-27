@@ -51,3 +51,16 @@ Output:
 ![SQL Output](../../images/ampla/Item.Count.Types.png)
 
 ----------
+
+
+###Item.Property.Pivot.sql###
+
+Source: [SQL](Item.Property.Pivot.sql)
+
+Generates a SQL Script for each type that will pivot the results for each type.
+
+Output:
+
+![SQL Output](../../images/ampla/Item.Property.Pivot.png)
+
+----------
