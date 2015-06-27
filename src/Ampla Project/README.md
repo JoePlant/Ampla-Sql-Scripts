@@ -64,3 +64,15 @@ Output:
 ![SQL Output](../../images/ampla/Item.Property.Pivot.png)
 
 ----------
+
+###Item.TraceLevel.sql###
+
+Source: [SQL](Item.TraceLevel.sql)
+
+Lists all properties who have a TraceLevel that is higher than the default setting.
+
+Output:
+
+![SQL Output](../../images/ampla/Item.TraceLevel.png)
+
+----------
