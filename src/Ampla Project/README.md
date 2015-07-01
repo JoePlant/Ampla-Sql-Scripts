@@ -26,6 +26,7 @@ Lists the full names of all the items and their depths in the project structure 
 Output:
 
 ![SQL Output](../../images/ampla/Item.FullName.Sorted.png)
+
 ----------
 
 ###Item.FullName.Type.sql###
