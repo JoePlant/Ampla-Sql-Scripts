@@ -40,6 +40,18 @@ Output:
 
 ----------
 
+###Item.FullName.Property.Pivot.sql###
+
+Source: [SQL](Item.FullName.Property.Pivot.sql)
+
+Generates a SQL command for each type that will output all the item fullnames and pivot out each of the properties into a table.
+
+Output:
+
+![SQL Output](../../images/ampla/Item.FullName.Property.Pivot.png)
+
+----------
+
 ###Item.Count.Types.sql###
 
 Source: [SQL](Item.Count.Types.sql)
