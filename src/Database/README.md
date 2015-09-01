@@ -102,7 +102,7 @@ Please check the name of the database before executing the generated script
 
 Output:
 
-![SQL Output](../../images/database/Database.Information.png)
+![SQL Output](../../images/database/Database.RecoveryMode.Simple.png)
 
 ----------
 
