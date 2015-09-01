@@ -54,6 +54,18 @@ Output:
 
 ----------
 
+###Database.CodeSizes.sql###
+
+Source: [SQL](Database.CodeSizes.sql)
+
+Outputs the list of code (stored procedures and functions) in a database with the number of statements and number of lines.
+
+Output:
+
+![SQL Output](../../images/database/Database.CodeSizes.png)
+
+----------
+
 ###Database.Information.sql###
 
 Source: [SQL](Database.Information.sql)

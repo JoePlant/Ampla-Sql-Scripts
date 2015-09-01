@@ -42,6 +42,7 @@ A set of scripts to output general information about the SQL Server Databases
 - Database.Assembly.Version.sql
 - Database.BackupScript.sql
 - Database.FileSizes.sql
+- Database.CodeSizes.sql
 - Database.Information.sql
 - Database.PerformanceCounters.sql
 - Database.RecoveryMode.Simple.sql
