@@ -1,4 +1,7 @@
-
+/*
+	DataRepository.Field.InfinityNaN.sql
+	SQL Script to detect and remove Infinity and NaN values in the DataRepository
+*/
 
 SELECT 
 	Module,
