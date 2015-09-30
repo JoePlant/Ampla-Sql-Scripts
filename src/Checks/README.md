@@ -57,3 +57,15 @@ Output:
 ![SQL Output](../../images/checks/Database.Trustworthy.png)
 
 ----------
+
+###DataRepository.Field.InfinityNaN.sql###
+
+Source: [SQL](DataRepository.Field.InfinityNaN.sql)
+
+Some fields in the data repository can have Data Values stored as double.Infinity and double.NaN that can cause issues. 
+
+Output:
+
+![SQL Output](../../images/checks/DataRepository.Field.InfinityNaN.png)
+
+----------

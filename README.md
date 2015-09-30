@@ -55,4 +55,5 @@ A set of scripts to check the data integrity of the Ampla Data Repository.
 
 - DataRepository.Field.Duplicate.sql
 - DataRepository.Field.Deleted.sql
+- DataRepository.Field.InfinityNaN.sql
 - Database.Trustworthy.sql
