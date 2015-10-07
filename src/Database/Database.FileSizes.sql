@@ -14,7 +14,7 @@ from
 	( 
 		SELECT object_name, counter_name, instance_name, cntr_value
 		FROM sys.dm_os_performance_counters 
-		where object_name = 'SQLServer:Databases'
+		WHERE object_name like '%SQL%Database%' -- support both default and names instances
 	) pc_dmv
 	group by pc_dmv.instance_name
 ) filesizes
