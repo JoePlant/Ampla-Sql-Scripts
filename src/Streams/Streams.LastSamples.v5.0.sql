@@ -57,8 +57,12 @@ AS
 AS 
 (
 	SELECT 
-		 ss.SampleId,
-		 ss.Value,
+		 ss.SampleId, 
+		 COALESCE(
+			ss.Value_String,
+			Cast(ss.Value_Double as NVARCHAR(4000)),
+			Cast(ss.Value_Long as NVARCHAR(4000))
+			) as [Value],
 		 ssq.Value as [QualityName],
 		 ' + @stateDB + '.dbo.udfTicksToDateTime(ss.TimestampTicks) as [TimestampUtc]
 	FROM 
