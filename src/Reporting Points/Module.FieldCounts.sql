@@ -11,6 +11,7 @@ select
 	,(counts.TotalRecords - counts.ActiveRecords) as [InactiveRecords]
 	,counts.ActiveRecords
 	,counts.TotalRecords
+	, cast(100.0 * counts.ActiveRecords / counts.TotalRecords as numeric(36,2)) as [Active Percent]
 	/* ,rp.ReportingPointId */
 from (
 		select FieldId, 'Production' as Module, sum(IsActive) as [ActiveRecords], count(1) as [TotalRecords]
