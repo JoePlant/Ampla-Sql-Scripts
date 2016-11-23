@@ -14,7 +14,8 @@ AS
 		ON item.ParentID = cte.ID
 )
 
-select cte.FullName as [Stopped Items]
+select cte.FullName as [Stopped Items], ip.Value as [StartupMode], it.TypeFullName
 from ItemProperties ip
 inner join Item_CTE cte on ip.ItemID = cte.ID
+inner join ItemTypes it on cte.TypeID = it.ID
 where PropertyName = 'StartupMode'
