@@ -15,20 +15,20 @@ A set of SQL Scripts that are useful with Ampla projects
 - Data Repository Scripts
 	- [Integrity Checks](src/Checks)
 
-###[Reporting Point Scripts](src/Reporting%20Points)###
+### [Reporting Point Scripts](src/Reporting%20Points) ###
 A set of scripts to count the number of records by reporting point type
 
 - Module.RecordCounts.sql
 - Module.FieldCounts.sql
 
-###[Ampla Project Scripts](src/Ampla%20Project)###
+### [Ampla Project Scripts](src/Ampla%20Project) ###
 A set of scripts for understanding the Ampla Project configuration database
 
 -  Item.FullName.sql
 -  Item.FullName.Sorted.sql
 -  Item.FullName.Type.sql
 
-###[Stream Scripts](src/Streams)###
+### [Stream Scripts](src/Streams) ###
 A set of scripts for understanding the streams in the Ampla state database
 
 -  Streams.Age.sql
@@ -36,7 +36,7 @@ A set of scripts for understanding the streams in the Ampla state database
 -  Streams.Orphaned.sql
 -  Streams.SampleCount.sql
 
-###[Database Scripts](src/Database)###
+### [Database Scripts](src/Database) ###
 A set of scripts to output general information about the SQL Server Databases
 
 - Database.Assembly.Version.sql
@@ -50,7 +50,7 @@ A set of scripts to output general information about the SQL Server Databases
 - Database.TableSizes.sql
 - Database.ShrinkFiles.sql
 
-###[Data Integrity Checks](src/Checks)###
+### [Data Integrity Checks](src/Checks) ###
 A set of scripts to check the data integrity of the Ampla Data Repository.
 
 - DataRepository.Field.Duplicate.sql
