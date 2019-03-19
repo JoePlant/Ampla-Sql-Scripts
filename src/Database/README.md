@@ -5,7 +5,7 @@ A set of useful database scripts for managing Ampla databases.
 
 ----------
 
-###Database.Assembly.Version.sql###
+### Database.Assembly.Version.sql ###
 
 Source: [SQL](Database.Assembly.Version.sql)
 
@@ -17,7 +17,7 @@ Output:
 
 ----------
 
-###Database.BackupScript.sql###
+### Database.BackupScript.sql ###
 
 Source: [SQL](Database.BackupScript.sql)
 
@@ -29,7 +29,7 @@ Output:
 
 ----------
 
-###Database.Connections.sql###
+### Database.Connections.sql ###
 
 Source: [SQL](Database.Connections.sql)
 
@@ -42,7 +42,7 @@ Output:
 
 ----------
 
-###Database.FileSizes.sql###
+### Database.FileSizes.sql ###
 
 Source: [SQL](Database.FileSizes.sql)
 
@@ -54,7 +54,7 @@ Output:
 
 ----------
 
-###Database.CodeSizes.sql###
+### Database.CodeSizes.sql ###
 
 Source: [SQL](Database.CodeSizes.sql)
 
@@ -66,7 +66,7 @@ Output:
 
 ----------
 
-###Database.Information.sql###
+### Database.Information.sql ###
 
 Source: [SQL](Database.Information.sql)
 
@@ -78,7 +78,7 @@ Output:
 
 ----------
 
-###Database.PerformanceCounters.sql###
+### Database.PerformanceCounters.sql ###
 
 Source: [SQL](Database.PerformanceCounters.sql)
 
@@ -91,7 +91,7 @@ Output:
 
 ----------
 
-###Database.RecoveryMode.Simple.sql###
+### Database.RecoveryMode.Simple.sql ###
 
 Source: [SQL](Database.RecoveryMode.Simple.sql)
 
@@ -106,7 +106,7 @@ Output:
 
 ----------
 
-###Database.TableSizes.sql###
+### Database.TableSizes.sql ###
 
 Source: [SQL](Database.TableSizes.sql)
 
@@ -118,7 +118,7 @@ Output:
 
 ----------
 
-###Database.ShrinkFiles.sql###
+### Database.ShrinkFiles.sql ###
 
 Source: [SQL](Database.ShrinkFiles.sql)
 
@@ -130,7 +130,7 @@ Output:
 
 ----------
 
-###Database.Trustworthy.sql###
+### Database.Trustworthy.sql ###
 
 Checks to see if the database has .NET assemblies installed and checks the database's TRUSTWORTHY state.
 
@@ -140,7 +140,7 @@ See: [../Checks/README.md](../Checks)
 
 Source: [SQL](../Checks/Database.Trustworthy.sql)
 
-###Database.SecurityAudit.sql###
+### Database.SecurityAudit.sql ###
 
 Lists all the locations all the Security access provided against a database using SQL Users, Windows Users, Windows Groupa and via Database roles and application roles.   
 
