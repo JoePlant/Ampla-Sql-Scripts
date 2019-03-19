@@ -139,3 +139,9 @@ This is used to solve errors that can occur when a database is restored from ano
 See: [../Checks/README.md](../Checks)
 
 Source: [SQL](../Checks/Database.Trustworthy.sql)
+
+###Database.SecurityAudit.sql###
+
+Lists all the locations all the Security access provided against a database using SQL Users, Windows Users, Windows Groupa and via Database roles and application roles.   
+
+Source: [SQL](../Database.SecurityAudit.sql)
