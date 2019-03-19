@@ -144,4 +144,4 @@ Source: [SQL](../Checks/Database.Trustworthy.sql)
 
 Lists all the locations all the Security access provided against a database using SQL Users, Windows Users, Windows Groupa and via Database roles and application roles.   
 
-Source: [SQL](../Database.SecurityAudit.sql)
+Source: [SQL](Database.SecurityAudit.sql)
