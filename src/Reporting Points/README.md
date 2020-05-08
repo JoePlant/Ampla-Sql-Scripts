@@ -5,7 +5,7 @@ A set of scripts to list the number of records in the Data repository
 
 ----------
 
-###Module.RecordCounts.sql###
+### Module.RecordCounts.sql ###
 
 Source: [SQL](Module.RecordCounts.sql)
 
@@ -17,7 +17,7 @@ Output:
 
 ----------
 
-###Module.FieldCounts.sql###
+### Module.FieldCounts.sql ###
 
 Source: [SQL](Module.FieldCounts.sql)
 
