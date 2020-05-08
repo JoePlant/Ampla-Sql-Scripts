@@ -5,7 +5,7 @@ A set of scripts to understand the number and types of values stored in the Stre
 
 ----------
 
-###Streams.Age.sql###
+### Streams.Age.sql ###
 
 Source: [SQL](Streams.Age.sql)
 
@@ -17,7 +17,7 @@ Output:
 
 ----------
 
-###Streams.LastSamples.sql###
+### Streams.LastSamples.sql ###
 
 Source: [SQL](Streams.LastSamples.sql)
 
@@ -31,7 +31,7 @@ Output:
 
 ----------
 
-###Streams.Orphaned.sql###
+### Streams.Orphaned.sql ###
 
 Source: [SQL](Streams.Orphaned.sql)
 
@@ -48,7 +48,7 @@ Output:
 
 ----------
 
-###Streams.SampleCount.sql###
+### Streams.SampleCount.sql ###
 
 Source: [SQL](Streams.SampleCount.sql)
 
