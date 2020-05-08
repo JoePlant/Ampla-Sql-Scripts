@@ -5,7 +5,7 @@ A set of scripts for understanding the Ampla Project configuration database
 
 ----------
 
-###Item.FullName.sql###
+### Item.FullName.sql ###
 
 Source: [SQL](Item.FullName.sql)
 
@@ -17,7 +17,7 @@ Output:
 
 ----------
 
-###Item.FullName.Sorted.sql###
+### Item.FullName.Sorted.sql ###
 
 Source: [SQL](Item.FullName.Sorted.sql)
 
@@ -29,7 +29,7 @@ Output:
 
 ----------
 
-###Item.FullName.Type.sql###
+### Item.FullName.Type.sql ###
 
 Source: [SQL](Item.FullName.Types.sql)
 
@@ -41,7 +41,7 @@ Output:
 
 ----------
 
-###Item.FullName.Property.Pivot.sql###
+### Item.FullName.Property.Pivot.sql ###
 
 Source: [SQL](Item.FullName.Property.Pivot.sql)
 
@@ -53,7 +53,7 @@ Output:
 
 ----------
 
-###Item.Count.Types.sql###
+### Item.Count.Types.sql ###
 
 Source: [SQL](Item.Count.Types.sql)
 
@@ -66,7 +66,7 @@ Output:
 ----------
 
 
-###Item.Property.Pivot.sql###
+### Item.Property.Pivot.sql ###
 
 Source: [SQL](Item.Property.Pivot.sql)
 
@@ -78,7 +78,7 @@ Output:
 
 ----------
 
-###Item.TraceLevel.sql###
+### Item.TraceLevel.sql ###
 
 Source: [SQL](Item.TraceLevel.sql)
 
